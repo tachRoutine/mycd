@@ -1,5 +1,5 @@
-use std::env;        // For args & current dir
-use std::path::Path; // For path handling
+use std::env;
+use std::path::Path;
 
 fn main() {
     let args: Vec<String> = env::args().skip(1).collect();
